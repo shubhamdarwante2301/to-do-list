@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    line-height: 20vh;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+header > h1 {
+    margin-left: 20px;
+}
+
+.inputContainer {
+    width: 100vw;
+    height: 10vh;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.inputContainer > input {
+    width: 50%;
+    height: 25px;
+}
+
+.inputContainer > a {
+    text-decoration: none;
+    border: 1px solid black;
+    height: 25px;
+    padding: 3px 35px;
+}
+
+.inputContainer > a:hover {
+    background-color: green;
+    color: white;
+}
+
+.todoContainer {
+    width: 100vw;
+    min-height: 50vh;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f2e7e7;
+}
+
+.todoContainer > .todoList{
+    border: 1px solid black;
+    border-radius: 15px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.todoContainer > .todoList:nth-child(even){
+    background-color: #dbc0c0be;
+}
+.todoContainer > .todoList > .closeBtn {
+    float: right;
+    padding: 0 10px;
+    text-decoration: none;
+    background-color: red;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
